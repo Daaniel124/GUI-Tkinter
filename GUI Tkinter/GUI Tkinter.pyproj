@@ -23,6 +23,13 @@
   <ItemGroup>
     <Compile Include="GUI_Tkinter.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.gif" />
+    <Content Include="2.gif" />
+    <Content Include="3.gif" />
+    <Content Include="4.gif" />
+    <Content Include="5.gif" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
        Visual Studio and specify your pre- and post-build commands in
