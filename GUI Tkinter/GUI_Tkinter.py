@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import ttk
+from tkinter.messagebox import *
 
 click = 0
 def clickerP(event):
@@ -27,6 +28,11 @@ def choice():
     ent.insert(END, cho+', ') # добавить в textbox
 
 def newWindow(ind: int):
+    if askyesno('Вопрос','Могу я открыть?'):
+        showinfo('Ответ', 'Открой окно')
+    else:
+        showinfo('Ответ', 'Закрой окно')
+        window.destroy()
     window2 = Toplevel()
     window2.title('Настройки')
     #window2.geometry('300x200')
